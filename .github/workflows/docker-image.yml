@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: wheeler0772/docker-web-app:latest,github
+          tags: wheeler0772/docker-web-app:latest
