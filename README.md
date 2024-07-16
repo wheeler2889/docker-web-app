@@ -10,7 +10,7 @@ To learn how to build and deploy an image using GitHub Actions and DockerHub, et
 
 # Getting Started
 Typically the first step in the SDLC for a new developer is to install all of the software and tools locally and run Maven or some other build to verify you have everything setup.  But for this project, there is no
-need to insall anything.  You can if you want.  But the focus of this project how to build and deploy a simple web application. 
+need to insall anything.  You can if you want and or need to run the application locally but the focus of this project how to build and deploy a simple web application. 
 
 There is a similar project in GitHub, but this document assumes the repor is a Azure DeveOps (ADO) Git Repo.
 
@@ -18,6 +18,13 @@ There is a similar project in GitHub, but this document assumes the repor is a A
 2.  [Azure Portal](https://portal.azure.com)
 3.	[DockerHub (0ptional) if you are going to push to DockerHub](https://hub.docker.com/)
 4.  [APS MAARC Replatform Developer Cheatsheet](https://mn365-my.sharepoint.com/:w:/g/personal/doug_wheeler_state_mn_us/EfoPcQruKehJnF9YIHEj2w0Bk1_Sv0Tk1zP_SV-H1gpbRw?email=doug.wheeler%40state.mn.us&e=srd0jS)
+5.  [Azure PostgreSQL Cheat Sheet](https://mn365-my.sharepoint.com/:w:/g/personal/doug_wheeler_state_mn_us/Ebwwn_Z1spFPk4Vo29v1V2oB14ZgbALeWzgz_sz3lAwePw?email=doug.wheeler%40state.mn.us&e=J5yXuo)
+
+# FAQs
+## Nginx vs Node.js
+Node.js is a JavaScript runtime capable of executing code. This could be anything from web servers (most common use case) to workers to automation, and even tooling (think CLI programs). You can even build desktop apps with Node.js and Electron.
+
+Nginx is a server technology used to serve static files and configure reverse proxies. You don’t write code that gets executed by Nginx (it’s not a runtime) but instead write configuration files that instruct Nginx what to do.
 
 # Clean Build
 ## Building the application
